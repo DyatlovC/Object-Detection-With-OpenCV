@@ -1,5 +1,5 @@
 import cv2
-capture = cv2.VideoCapture("cars.mp4")
+capture = cv2.VideoCapture("") ## Set your video path 
 
 object_dector = cv2.createBackgroundSubtractorMOG2(
     history=100, varThreshold=230)
